@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cetrekan Lampu</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="pure-g">
+            <!--Lampu 1-->
+            <div class="pure-u-1 pure-u-md-1-3">
+                <img src="/assets/images/off.gif" alt="" id="lampu1" />
+                <button onclick="saklar('on', 1)" class="pure-button pure-button-primary">Nyalakan Lampu</button>
+                <button onclick="saklar('off', 1)" class="button-error pure-button">Matikan Lampu</button>
+            </div>
+            <!--Lampu 2-->
+            <div class="pure-u-1 pure-u-md-1-3">
+                <img src="/assets/images/off.gif" alt="" id="lampu2" />
+                <button onclick="saklar('on', 2)" class="pure-button pure-button-primary">Nyalakan Lampu</button>
+                <button onclick="saklar('off', 2)" class="button-error pure-button">Matikan Lampu</button>
+            </div>
+            <!--Lampu 3-->
+            <div class="pure-u-1 pure-u-md-1-3">
+                <img src="/assets/images/off.gif" alt="" id="lampu3" />
+                <button onclick="saklar('on', 3)" class="pure-button pure-button-primary">Nyalakan Lampu</button>
+                <button onclick="saklar('off', 3)" class="button-error pure-button">Matikan Lampu</button>
+            </div>
+        </div>
+        <!--File Javascript-->
+        <script src="main.js"></script>
+    </body>
+</html>
